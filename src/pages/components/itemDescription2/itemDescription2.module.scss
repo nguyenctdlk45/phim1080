@@ -1,0 +1,62 @@
+.wrapper {
+    width: 100%;
+    // position: absolute;
+    height: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.inner {
+    background: 0 0;
+    background-image: linear-gradient(180deg, hsla(0, 0%, 100%, 0), rgba(0, 0, 0, 0.39) 34%, #000 87%);
+    bottom: 0;
+    color: #eee;
+    height: auto;
+    left: 0;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    padding: 50px 5px 5px;
+    z-index: 1;
+}
+
+.likes {
+    display: block;
+    overflow: hidden;
+    text-align: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 40%;
+    font-size: 12px;
+}
+.title {
+    font-size: 14px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-height: 44px;
+    margin-bottom: 2px;
+    text-align: left;
+}
+.soild {
+    align-items: center;
+
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    left: 0;
+    // opacity: 0;
+    position: absolute;
+    top: 0;
+
+    // visibility: hidden;
+    width: 100%;
+    z-index: 2;
+    color: #eee;
+    font-size: 50px;
+}
+.wrapper:hover .soild {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #ec4b0c;
+    transition: background-color 0.3s, color 0.3s;
+}

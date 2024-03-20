@@ -1,0 +1,26 @@
+.item {
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.image > a > img {
+    float: left;
+    margin-right: 10px;
+    width: 160px;
+    max-height: 90px;
+}
+.info {
+    float: left;
+    width: 170px;
+    a {
+        color: #0285b5;
+    }
+    .likes {
+        display: block;
+        font-size: 12px;
+    }
+
+    .views {
+        display: block;
+        font-size: 12px;
+    }
+}

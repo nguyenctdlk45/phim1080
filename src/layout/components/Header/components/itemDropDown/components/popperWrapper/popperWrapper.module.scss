@@ -1,0 +1,19 @@
+.wrapper{
+    box-shadow: 0 2px 1px #555;
+    max-height: 380px;
+    opacity: 1;
+    visibility: visible;
+    z-index: 999999999;
+    //
+    background: rgba(0, 0, 0, .8);
+    left: 0;
+    margin: -10px;
+    // max-height: 0;
+    // opacity: 0;
+    // overflow: hidden;
+    padding: 5px 10px;
+    // position: absolute;
+    // transition: max-height .3s, box-shadow .3s, opacity .3s, visibility .3s;
+    // visibility: hidden;
+    width: 470px;
+}

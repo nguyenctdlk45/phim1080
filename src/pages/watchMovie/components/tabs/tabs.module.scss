@@ -1,0 +1,49 @@
+.tabs {
+    border-bottom: 1px solid #444;
+    margin: 20px 0;
+    overflow: hidden;
+    width: 100%;
+}
+.tabItem {
+    cursor: pointer;
+    color: #bbb;
+    float: left;
+    margin-right: 50px;
+    padding-bottom: 5px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: none; /* Xóa viền */
+    background: none; /* Xóa nền */
+    z-index: 2;
+}
+.tabItem.active {
+    border-bottom: 2px solid #0285b5;
+}
+.filmInfoDes {
+    margin-top: 15px;
+}
+.content2 {
+    max-height: 800px;
+    clear: both;
+    background: #262626;
+}
+.chapterName {
+    cursor: pointer;
+    border-bottom: 1px solid #333;
+    border-radius: 2px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0;
+    overflow: hidden;
+    padding: 0 5px 0 5px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; /* Canh giữa theo chiều ngang */
+    align-items: center; /* Canh giữa theo chiều dọc */
+    &:hover {
+        background: rgba(2, 133, 181, 0.2);
+        color: #37a9ce;
+    }
+}
