@@ -1,11 +1,11 @@
 import classNames from 'classnames/bind';
 import axios from 'axios';
 
-import styles from './Home.module.scss';
-import ContainerBigHead from './components/containerBigHead';
-import ContainerSmallHead from './components/containersmallHead';
-import ContainerNomal from './components/containerNomal';
-import ContainerRatings from './components/containerRatings';
+import styles from './home.module.scss';
+import ContainerBigHead from './components/container-bighead';
+import ContainerSmallHead from './components/container-smallhead';
+import ContainerNomal from './components/container-nomal';
+import ContainerRatings from './components/container-ratings';
 //data fake
 import { listDatabM, listDataHH, listDataDC, listDataCN, listDataXH, listDataCS } from './data';
 // import { useEffect, useState } from 'react';

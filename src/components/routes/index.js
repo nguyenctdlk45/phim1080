@@ -1,6 +1,6 @@
-import Home from '~/pages/Home';
-import ListMovie from '~/pages/ListMovie';
-import WatchMovie from '~/pages/watchMovie';
+import Home from '~/pages/home';
+import ListMovie from '~/pages/list-movie';
+import WatchMovie from '~/pages/watch-movie';
 
 // import { OnlyHeader } from '~/layout';
 
