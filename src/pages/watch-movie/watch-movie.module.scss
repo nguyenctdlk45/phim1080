@@ -12,5 +12,20 @@
     float: left;
 }
 .video {
-    background-color: yellow;
+    background-color: rgb(0, 0, 0);
+}
+.trailer {
+    height: 360px;
+    width: 640px;
+    // margin-top: 20px;
+    float: left;
+    position: relative;
+}
+.trailer > img {
+    width: 100%;
+}
+.trailerText {
+    position: absolute;
+    top: 50%;
+    left: 43%;
 }

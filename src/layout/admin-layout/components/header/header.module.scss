@@ -1,0 +1,28 @@
+.wrapper {
+    background-color: #333;
+    box-shadow: 0 0 1px 0 #adadad;
+    height: 60px;
+    min-height: 40px;
+    z-index: 1030;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+}
+.inner {
+    display: flex;
+    justify-content: center; /* Canh giữa theo chiều ngang */
+    align-items: center; /* Canh giữa theo chiều dọc */
+    // margin: 0 auto;
+    overflow: hidden;
+}
+.headerLogo {
+    float: left;
+    height: 60px;
+    padding: 10px 0;
+}
+.headerLogo > img {
+    margin-top: -41px;
+    height: 125px;
+    width: 214px;
+}

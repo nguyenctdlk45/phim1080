@@ -29,4 +29,5 @@ export const dataParam = [
     { title: 'Hàn Quốc', to: 'han-quoc' },
     { title: 'Phim Bộ', to: 'phim-bo' },
     { title: 'Phim Lẻ', to: 'phim-le' },
+    { title: 'Phim Mới', to: 'phim-moi' },
 ];

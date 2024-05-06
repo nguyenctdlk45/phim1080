@@ -1,6 +1,12 @@
 @import 'normalize.css';
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-body{
+:root {
+    --with-seach-large: 320px;
+    --black: #000;
+    --white: #fff;
+    --primery: #ff4c00;
+}
+body {
     background: #333;
     color: #bbb;
     font-family: 'Open Sans', sans-serif;
@@ -8,9 +14,12 @@ body{
     line-height: 1.428571429;
     margin: 0 auto;
 }
-//font 
+//font
 * {
     box-sizing: border-box;
     padding: 0;
+    text-decoration: none;
+}
+a {
     text-decoration: none;
 }

@@ -8,7 +8,7 @@ const cx = classNames.bind(styles);
 function TrayItem({ data = [], num }) {
     return (
         <div className={cx('item')}>
-            <Link to={`phim${data.path}`}>
+            <Link to={`phim/${data.path}`}>
                 <div className={cx('thumb')}>
                     <img src={data.image} alt="item" />
                 </div>

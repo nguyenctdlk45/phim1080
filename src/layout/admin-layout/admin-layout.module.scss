@@ -1,0 +1,13 @@
+.wrapper {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+.container {
+    width: 100%;
+    display: flex;
+    margin-top: 60px;
+}
+.content {
+    flex: 1;
+}

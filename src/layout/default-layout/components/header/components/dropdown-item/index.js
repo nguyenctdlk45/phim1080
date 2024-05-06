@@ -17,9 +17,9 @@ function ItemDropDown({ data, path, children }) {
                 render={(attrs) => (
                     <PopperWrapper>
                         <div className={cx('menuDown')} tabIndex="-1" {...attrs}>
-                            {data.map((category, index) => (
-                                <PopperItem key={index} to={category.to} path={path}>
-                                    {category.title}
+                            {data.map((item, index) => (
+                                <PopperItem key={item.id} to={item.path} path={path}>
+                                    {item.name}
                                 </PopperItem>
                             ))}
                         </div>

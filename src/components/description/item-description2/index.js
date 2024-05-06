@@ -8,7 +8,7 @@ function ItemDescription({ data, type }) {
     return (
         <div className={cx('wrapper')}>
             <div className={cx('inner')}>
-                {!type && <div className={cx('likes')}>{data.likes}</div>}
+                {!type && <div className={cx('likes')}>Tập {data.num_chapter}</div>}
                 <div className={cx('title')}>{data.title}</div>
             </div>
             {type === 'trailer' && (

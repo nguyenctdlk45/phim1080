@@ -7,9 +7,10 @@ import ItemDescription2 from '~/components/description/item-description2';
 
 const cx = classNames.bind(styles);
 function TrayItem({ data, num, type }) {
+    console.log(data);
     return (
         <div className={cx('item')}>
-            <Link to={`phim${data.path}`}>
+            <Link to={`phim/${data.path}`}>
                 <div className={cx('thumb')}>
                     <img src={data.image} alt="item" />
                 </div>

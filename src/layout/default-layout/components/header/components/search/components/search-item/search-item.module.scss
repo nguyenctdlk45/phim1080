@@ -1,0 +1,41 @@
+.resultItem {
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    &:hover {
+        background-color: rgba(64, 63, 62, 0.785);
+    }
+}
+.resultItem:hover .thumb > img {
+    transform: scale(1.2);
+}
+
+.thumb {
+    height: 60px;
+    width: 120px;
+    margin-right: 10px;
+    overflow: hidden;
+}
+.thumb > img {
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+.info {
+    width: 190px;
+    margin-left: 10px;
+    overflow: hidden;
+    color: white;
+
+    .title {
+        font-size: 14px;
+        overflow: hidden;
+        text-wrap: nowrap;
+    }
+    .num_chapter {
+        font-size: 12px;
+    }
+    .views {
+        font-size: 12px;
+    }
+}

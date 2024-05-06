@@ -8,14 +8,14 @@ function RelatedItem({ data }) {
     return (
         <div className={cx('item')}>
             <div className={cx('image')}>
-                <Link to={`/phim${data.path}`}>
+                <Link to={`/phim/${data.path}`}>
                     <img src={data.image} alt={data.name} />
                 </Link>
             </div>
             <div className={cx('info')}>
-                <Link to={`/phim${data.path}`}>{data.des.title}</Link>
+                <Link to={`/phim/${data.path}`}>{data.des.title}</Link>
                 <div className={cx('likes')}>{data.des.likes}</div>
-                <div className={cx('views')}>{data.des.views}</div>
+                <div className={cx('views')}>{data.des.views} views</div>
             </div>
         </div>
     );

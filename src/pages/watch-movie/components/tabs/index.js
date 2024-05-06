@@ -11,7 +11,7 @@ function Tabs({ data, onChapterChange, currentChapterIndex }) {
     const handleChapterClick = (index) => {
         onChapterChange(index); // Gọi hàm từ thành phần cha
     };
-    console.log(currentChapterIndex);
+    // console.log(currentChapterIndex);
     return (
         <div className={cx('wrapper')}>
             <div className={cx('tabs')}>
@@ -24,7 +24,7 @@ function Tabs({ data, onChapterChange, currentChapterIndex }) {
                 >
                     Thông tin
                 </button>
-                {datainfo.chapters && (
+                {datainfo.chapters.length > 0 && (
                     <button
                         id="1"
                         onClick={(e) => {

@@ -4,8 +4,7 @@ import { FaStar } from 'react-icons/fa';
 import styles from './itemDescription.module.scss';
 
 const cx = classNames.bind(styles);
-function ItemDescription({ data = [], num }) {
-    console.log(data);
+function ItemDescription({ data = [], num, likes }) {
     return (
         <div className={cx('wrapper')}>
             <div className={cx('inner')}>
@@ -24,7 +23,7 @@ function ItemDescription({ data = [], num }) {
                     style={
                         num === 0
                             ? {
-                                  fontSize: '18px',
+                                  fontSize: '17px',
                                   margin: '5px 0',
                                   color: '#fff',
 
@@ -41,8 +40,8 @@ function ItemDescription({ data = [], num }) {
                     </div>
                 )}
                 <div className={cx('info')}>
-                    <div className={cx('views')}>{data.views}</div>
-                    <div className={cx('likes')}>{data.likes}</div>
+                    <div className={cx('views')}>{data.views} xem</div>
+                    <div className={cx('likes')}>Tập: {data.num_chapter}</div>
                 </div>
             </div>
             <div className={cx('audio')}>{data.audio}</div>

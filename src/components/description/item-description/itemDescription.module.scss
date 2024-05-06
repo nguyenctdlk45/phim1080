@@ -48,15 +48,16 @@
         color: yellow;
     }
 }
-.info {
-    .views {
-    }
-    .likes {
-        position: absolute;
-        bottom: 5px;
-        right: 5px;
-    }
+.title {
+    font-size: 14px;
 }
+
+.likes {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
 .audio {
     background: hsla(0, 0%, 100%, 0.75);
     border-radius: 3px;
